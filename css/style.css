@@ -1,0 +1,80 @@
+/*------------------------Colors-------------------------*/
+
+/*- background-color: #333333; (dark black)
+    background-color: #555555; (light black)
+    
+    text-color: #ebebeb; (off-white)
+    
+    4 primary colors:
+    #e94f64; (red)
+    #52d273; (green)
+    #468cde; (blue)
+    #e5c454; (mustard) -*/
+    
+html {
+     scroll-behavior: smooth;
+     margin: 0;
+     padding: 0;
+}
+
+.row {
+    background-color: #333333;
+    width: 100vw;
+    height: 300px;
+    margin: 0 0 10px 0;
+}
+
+.row-2 {
+    background-color: #555555;
+    width: 100vw;
+    height: 300px;
+    margin: 10px 0 0 0;
+}
+
+.box-1 {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: #e94f64;
+    margin: 15px;
+}
+
+.box-2 {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: #52d273;
+    margin: 15px
+}
+
+.box-3 {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: #468cde;
+    margin: 15px
+}
+
+.box-4 {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: #e5c454;
+    margin: 15px
+}
+
+.fantasy {
+    color: #ebebeb;
+    font-family: fantasy;
+    font-weight: 600;
+}
+
+.cursive {
+    color: #ebebeb;
+    font-family: cursive;
+}
+
+.logo {
+    display: block;
+    float: right;
+}
