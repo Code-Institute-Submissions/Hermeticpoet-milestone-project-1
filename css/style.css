@@ -18,6 +18,14 @@ body {
     background-color: #555555;
 }
 
+.logo {
+    background: url(../stream-1/band-assets/images/logo-guitar.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    min-height: 200px;
+}
+
 /*---------------------Navbar-----------------*/
 
 .container-fluid {
