@@ -1,12 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen:100,200,300,400,500,600,700|Lora:100,200,300,400,500,600,700');
+
 html, body {
 	margin: 0;
 	padding: 0;
-	background-color: pink;
 }
 
 .container-fluid {
 	padding: 0;
 }
+
+/* ----------- Bg Colors -------------*/
+
+html, body {
+    background-color: pink;
+}
+
+.bg-color-venue-timelime {
+    background-color: rgba(75, 95, 109, 0.6);
+}
+
+.venue-dates {
+    background-color: rgba(190, 202, 210);
+}
+
+.venue-bg-color {
+    background-color: #a0a8f0;
+}
+
+
+/* ---------- Header Logo ------------*/
 
 .logo {
     background-position: center;
@@ -63,6 +85,48 @@ video {
     justify-content: center;
     padding: 1rem 0;
 }
+
+
+/*----------venue timeline starts -----*/
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::before {
+    content: attr(dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Lora", sans-serif;
+    font-weight: 500;
+    font-size: .8em;
+    margin: 0;
+    padding: 0;
+}
+
+.timeline-item::after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: "";
+    background-color: #fafafa;
+}
+/*---------- venue timeline end --------------*/
+
 
 /*-------------- Media Queries ---------------*/
 
