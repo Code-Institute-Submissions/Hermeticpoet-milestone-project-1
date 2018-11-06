@@ -6,7 +6,6 @@ html, body {
 
 .container-fluid {
 	padding: 0;
-	margin: 0;
 }
 
 .logo {
@@ -15,4 +14,60 @@ html, body {
     background-size: auto;
     width: 100%;
     height: auto;
+}
+
+/*-------------- Navbar --------------*/
+
+.navbar-toggler {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navbar-expand-md {
+    padding: 1.5rem;
+}
+
+/*------------- New Xmas Album ----------------*/
+
+.xmas-cover-title {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.xmas-cover-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.xmas-cover {
+   display: block;
+   width: 100%;
+   max-width: 800px; /*actual image width*/
+   height: auto; /* maintain aspect ratio*/
+   margin: auto;
+}
+
+
+/* -------------- Video --------------------- */
+
+video {
+  width: 100% !important;
+  height: auto !important;
+}
+
+.video-title {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+/*-------------- Media Queries ---------------*/
+
+@media only screen and (min-width: 768px) {
+    .navbar-expand-md {
+    padding: 0;
+    }
 }
