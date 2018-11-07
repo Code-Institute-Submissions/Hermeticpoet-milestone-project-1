@@ -156,6 +156,16 @@ video {
     align-items: center;
 }
 
+/*-------------- Audio Section ---------------*/
+
+.band-bw-photo {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    height: auto;
+}
+
 /*-------------- Media Queries ---------------*/
 
 @media only screen and (min-width: 768px) {
