@@ -56,7 +56,7 @@
                 <div class="col-12 col-md-4 bg-color-venue-timelime timeline-column">
                     <div class="row">
                         <div class="col-md-12">
-                            <h3 class="timeline-heading uppercase">Venue Dates</h3>
+                            <h3 class="timeline-heading uppercase">Tour Calender</h3>
                         </div>
                     </div>
                     <div class="country-dates">
@@ -95,7 +95,8 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-8 venue-dates">
-                    <div class="row">
+                    <h3>Venues & Dates</h3>
+                    <div class="row venue-dates-positioning">
                         <div class="col venue-bg-color">
                             <h3>The Globe, Rome</h3>
                             <p>Jan 5th - 7th</p>
@@ -105,7 +106,8 @@
                             <p>Feb 11th - 13th</p>
                         </div>
                     </div>
-                    <div class="row">
+                    <hr />
+                    <div class="row venue-dates-positioning">
                         <div class="col venue-bg-color">
                             <h3>The Bataclan Theatre, Paris</h3>
                             <p>Feb 22nd - 25th</p>
@@ -115,7 +117,8 @@
                             <p>Mar 10th - 13th</p>
                         </div>
                     </div>
-                    <div class="row">
+                    <hr />
+                    <div class="row venue-dates-positioning">
                         <div class="col venue-bg-color">
                             <h3>Barclay Card Arena, Hamburg</h3>
                             <p>Mar 27th - 29th</p>
@@ -125,7 +128,8 @@
                             <p>Apr 14th - 16th</p>
                         </div>
                     </div>
-                    <div class="row">
+                    <hr />
+                    <div class="row venue-dates-positioning">
                         <div class="col venue-bg-color">
                             <h3>Club Dauphine, Amsterdam</h3>
                             <p>Apr 28th - 30th</p>
@@ -135,7 +139,8 @@
                             <p>May 7th - 9th</p>
                         </div>
                     </div>
-                    <div class="row">
+                    <hr />
+                    <div class="row venue-dates-positioning">
                         <div class="col venue-bg-color">
                             <h3>Wembley Arena, London</h3>
                             <p>May 21st - 23rd</p>
@@ -145,7 +150,8 @@
                             <p>June 12th - 14th</p>
                         </div>
                     </div>
-                    <div class="row">
+                    <hr />
+                    <div class="row venue-dates-positioning">
                         <div class="col venue-bg-color">
                             <h3>3 Arena, Dublin</h3>
                             <p>June 23rd - 25th</p>
@@ -155,7 +161,8 @@
                             <p>July 2nd - 4th</p>
                         </div>
                     </div>
-                    <div class="row">
+                    <hr />
+                    <div class="row venue-dates-positioning">
                         <div class="col venue-bg-color">
                             <h3>Baque Arena, Beijing</h3>
                             <p>July 24th - 26th</p>
@@ -165,7 +172,8 @@
                             <p>Aug 7th - 10th</p>
                         </div>
                     </div>
-                    <div class="row">
+                    <hr />
+                    <div class="row venue-dates-positioning">
                         <div class="col venue-bg-color">
                             <h3>Bunkamura, Tokyo</h3>
                             <p>Aug 28th - 30th</p>
@@ -175,21 +183,32 @@
                             <p>Sept 13th - 15th</p>
                         </div>
                     </div>
+                    <hr />
                 </div>
             </div>
         </section>
-        <section class="booking-form">
-            <div class="row">
-                <div class="col">
-                    <h2>Booking Enquires</h2>
+        <section class="container-fluid booking-form">
+            <div class="row bookings-layout bg-color-bookings">
+                <div class="bookings-heading col-auto">
+                    <h3 class="uppercase text-center">Booking Enquiries</h3>
                 </div>
-            </div>
-            <div class="row form-box">
-                <div class="col-md-8 offset-md-2"></div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <btn>Submit</btn>
+                <div class="bookings-form col-12 col-md-8">
+                    <form>
+                        <div class="form-group">
+                            <label for="inputName">Full Name</label>
+                            <input type="name" class="form-control" id="inputName" aria-describedby="nameHelp" placeholder="Enter name here">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail">Email address</label>
+                            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email here">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="Textarea">Enquiry Details</label>
+                            <textarea class="form-control" id="Textarea" rows="6"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
                 </div>
             </div>
         </section>
