@@ -166,6 +166,21 @@ video {
     height: auto;
 }
 
+.album-cover-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.album-cover-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.audio-controls {
+    display: flex;
+    justify-content: center;
+}
+
 /*-------------- Media Queries ---------------*/
 
 @media only screen and (min-width: 768px) {
