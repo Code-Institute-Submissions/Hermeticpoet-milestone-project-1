@@ -176,9 +176,46 @@ video {
     justify-content: center;
 }
 
-.audio-controls {
+.audio-controls h5 {
+    text-align: center;
+} 
+
+.audio-controls hr {
+    background-color: #f6bfca;
+    border-radius: 50px;
+    width: 100px;
+    height: 5px;
+}
+
+.best-of-audio {
     display: flex;
-    justify-content: center;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.greatest-hits-audio {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.audio-row1,
+.audio-row2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.best-of-audio,
+.greatest-hits-audio {
+    padding: 1rem;
+}
+
+audio {
+    margin-bottom: 1rem;
 }
 
 /*-------------- Media Queries ---------------*/
