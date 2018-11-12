@@ -64,6 +64,7 @@ footer {
     display: flex;
     justify-content: center;
     padding: 1rem 0;
+    font-size: 1.5rem;
 }
 
 .xmas-cover-container {
@@ -91,21 +92,27 @@ footer {
 }
 
 
+
 /* -------------- Video --------------------- */
 
 video {
-  width: 90% !important;
+  width: 100% !important;
   height: auto !important;
+  margin: .5rem;
 }
 
-.video-alignment {
+video h2 {
+    font-size: 1.5rem;
+}
+
+.video-elms {
+    margin-bottom: 1rem;
+}
+
+.video-title {
     display: flex;
-    flex-flow: column;
     justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
 }
-
 
 /*------------ Venue Timeline ---------*/
 
@@ -213,6 +220,11 @@ video {
     height: auto;
 }
 
+.audio-heading {
+    justify-content: center;
+    margin-top: 20px;
+}
+
 .album-cover-1 {
     display: flex;
     justify-content: center;
@@ -233,13 +245,6 @@ video {
     width: 200px;
     height: 3px;
 }
-
-/*-- .bw-photo hr {
-    background-color: #a0a8f0;
-    border-radius: 25px;
-    width: 200px;
-    height: 3px;
-} --*/
 
 .best-of-audio {
     display: flex;
