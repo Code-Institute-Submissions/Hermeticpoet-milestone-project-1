@@ -20,7 +20,7 @@ footer {
 }
 
 .bg-color-venue-timelime {
-    background-color: rgba(75, 95, 109, 0.6);
+    background-color: #a0a8f0;
 }
 
 .venue-dates {
@@ -29,7 +29,8 @@ footer {
 
 .venue-bg-color {
     background-color: #a0a8f0;
-    border: solid 1px #f6bfca;
+    border: solid 3px #f6bfca;
+    border-radius: 15px;
 }
 
 
@@ -79,18 +80,30 @@ footer {
    margin: auto;
 }
 
+.album-columns-position {
+    flex-flow: column;
+}
+
+.btn-center {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
 
 /* -------------- Video --------------------- */
 
 video {
-  width: 100% !important;
+  width: 90% !important;
   height: auto !important;
 }
 
-.video-title {
+.video-alignment {
     display: flex;
+    flex-flow: column;
     justify-content: center;
-    padding: 1rem 0;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 
@@ -133,15 +146,45 @@ video {
     background-color: #fafafa;
 }
 
+.country-dates {
+    padding: 5px 50px;
+}
+
+.timeline-heading-container {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+    margin-bottom: -15px;
+    margin-top: 25px;
+}
+
+.venue-dates-heading {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+    margin-bottom: 25px;
+}
+
+.timeline-column {
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    border-radius: 25px;
+}
+
 /*---------- Event Location / Dates ----------*/
 
-.venue-dates-positioning {
+.venue-dates {
+    background-color: #f6bfca;
+    padding: 25px;
+}
+
+.container-venue-dates {
     display: flex;
-    justify-content: space-between;
+    flex-flow: column;
 }
 
 .venue-dates hr {
-    background-color: #f6bfca;
+    background-color: #a0a8f0;
     border-radius: 50px;
     width: 100px;
     height: 5px;
@@ -154,6 +197,10 @@ video {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.booking-form {
+    margin: 15px 0;
 }
 
 /*-------------- Audio Section ---------------*/
@@ -180,12 +227,19 @@ video {
     text-align: center;
 } 
 
-.audio-controls hr {
-    background-color: #f6bfca;
-    border-radius: 50px;
-    width: 100px;
-    height: 5px;
+.audio-files hr {
+    background-color: #a0a8f0;
+    border-radius: 25px;
+    width: 200px;
+    height: 3px;
 }
+
+/*-- .bw-photo hr {
+    background-color: #a0a8f0;
+    border-radius: 25px;
+    width: 200px;
+    height: 3px;
+} --*/
 
 .best-of-audio {
     display: flex;
@@ -222,6 +276,12 @@ audio {
 
 @media only screen and (min-width: 768px) {
     .navbar-expand-md {
-    padding: 0;
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .container-venue-dates {
+        align-items: center;
     }
 }
