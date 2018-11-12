@@ -3,6 +3,8 @@
 html, body {
 	margin: 0;
 	padding: 0;
+	font-family: "Oxygen";
+	color: #6e7598;
 }
 
 .container-fluid {
@@ -58,7 +60,12 @@ footer {
     padding: 1.5rem;
 }
 
-/*------------- New Xmas Album ----------------*/
+.navbar-collapse ul > li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*----------- New Xmas Album -------------*/
 
 .xmas-cover-title {
     display: flex;
@@ -89,6 +96,7 @@ footer {
     display: flex;
     justify-content: center;
     margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 
@@ -275,6 +283,31 @@ video h2 {
 
 audio {
     margin-bottom: 1rem;
+}
+
+/* -------- Footer / Social Links --------- */
+
+.social-links {
+    font-size: 2rem;
+}
+
+.copyright-column,
+.social-links-column {
+    text-align: center;
+}
+
+.copyright-column>h4,
+.copyright-column>p {
+    color: #f9f9f9;
+}
+
+.social-links-column ul > li {
+    color: #a0a8f0;
+    padding: 10px;
+}
+
+.copyright-logo {
+    padding-top: 5px;
 }
 
 /*-------------- Media Queries ---------------*/
