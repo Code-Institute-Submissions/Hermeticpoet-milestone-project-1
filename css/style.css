@@ -3,8 +3,18 @@
 html, body {
 	margin: 0;
 	padding: 0;
-	font-family: "Oxygen";
+	font-family: "Oxygen", sans-serif;
 	color: #6e7598;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lora", sans-serif;
+    font-weight: 600;
 }
 
 .container-fluid {
@@ -14,7 +24,7 @@ html, body {
 /* ----------- Bg Colors -------------*/
 
 html, body {
-    background-color: pink;
+    background-color: #f6bfca;
 }
 
 footer {
@@ -36,7 +46,7 @@ footer {
 }
 
 
-/* ---------- Header Logo ------------*/
+/*----------- Header Logo ------------*/
 
 .logo {
     background-position: center;
@@ -47,6 +57,28 @@ footer {
     max-height: 16rem;
 }
 
+/*------------ Home Page -------------*/
+
+.band-1972 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    height: auto;
+}
+
+.band-1972-heading{
+    text-align: center;
+}
+
+.new-album hr,
+.video hr {
+    background-color: #a0a8f0;
+    border-radius: 25px;
+    width: 200px;
+    height: 3px;
+    margin-bottom: 20px;
+}
 
 /*-------------- Navbar --------------*/
 
@@ -71,7 +103,6 @@ footer {
     display: flex;
     justify-content: center;
     padding: 1rem 0;
-    font-size: 1.5rem;
 }
 
 .xmas-cover-container {
@@ -83,8 +114,8 @@ footer {
 .xmas-cover {
    display: block;
    width: 100%;
-   max-width: 800px; /*actual image width*/
-   height: auto; /* maintain aspect ratio*/
+   max-width: 800px; 
+   height: auto; 
    margin: auto;
 }
 
@@ -233,12 +264,8 @@ video h2 {
     margin-top: 20px;
 }
 
+.album-cover-2,
 .album-cover-1 {
-    display: flex;
-    justify-content: center;
-}
-
-.album-cover-2 {
     display: flex;
     justify-content: center;
 }
@@ -287,23 +314,29 @@ audio {
 
 /* -------- Footer / Social Links --------- */
 
-.social-links {
-    font-size: 2rem;
-}
-
 .copyright-column,
 .social-links-column {
     text-align: center;
 }
 
-.copyright-column>h4,
-.copyright-column>p {
+.copyright-column > h4,
+.copyright-column > p {
     color: #f9f9f9;
 }
 
-.social-links-column ul > li {
-    color: #a0a8f0;
-    padding: 10px;
+.social-links li a i {
+    padding: 5px 15px 25px 0;
+    font-size: 2rem;
+    text-align: center;
+    color: #f6bfca;
+}
+
+.social-links li a i:hover {
+    color: #007bff;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .copyright-logo {
@@ -315,6 +348,12 @@ audio {
 @media only screen and (min-width: 768px) {
     .navbar-expand-md {
         padding: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {    
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 1.3rem;
     }
 }
 
