@@ -31,8 +31,6 @@ date, when the requisite coding languages have been acquired.
 
 ## UX
 
-------------
-
 The primary stakeholders involved in this website are the band - _The Monkees_. They wish to not only showcase some of their music to established fans
 but to also bring some tasters to potential fans and prospective clients. They are seeking to garner greater employment through performing at weddings 
 and events too. They also wish to sell their merchandise. Given this last requirement, I have provided a link in the navbar to their already established
@@ -60,9 +58,9 @@ and embedded a contact form that potential clients can fill in in order to conta
 
 Please [wireframes](https://github.com/Hermeticpoet/milestone-project-1/tree/master/Wireframes) directory in the project for wireframes of the Mobile First pages of the project.
 
-## Features
+------------
 
-____________
+## Features
 
 ### Established Features
 * Video - allows users to see a video of a performance of the band.
@@ -85,11 +83,11 @@ ____________
   This will also be the case for purchasing tickets for shows through the site. Buttons have been added for design / layout
   purposes at this stage of development but they are not functional as yet.
 
-## Technologies Used
-
 ------------
 
-#### HTML5
+## Technologies Used
+
+### HTML5
 The project uses [HTML](https://www.w3schools.com/html/html5_intro.asp) to structure the site.
 
 ### CSS3
@@ -102,9 +100,9 @@ and structure (Grid System) of the site, as well as aid in the creation of a res
 ### Google Fonts
 The project uses [Google Fonts](https://fonts.google.com/) to add specific fonts to aid in the personal design elements of the site.
 
-## Testing
-
 ------------
+
+## Testing
 
 ### Scenarios:
 #### Monkees User Story: 
@@ -140,21 +138,20 @@ _Checking Availibility and Sampling some Music:_
 * Tour dates and venue scheduling allow clients to see availibility in what locations
 * Contact form embedded to allow contacting the band for possible events
 
+------------
+
 ## Responsiveness of the Site
 
-------------
 
 
 ## Deployment
 
-------------
-
 I created a repository on Github, linking my project on Cloud9 to it. I committed and pushed content to this respository at various stages of the 
 project, e.g. when I created a new page structure or completed the styling of a group of similar elements. 
 
-### Credits
+------------
 
------------
+### Credits
 
 #### Content
 * The code for the Social Media links and their transitions was taken from the UCD-Resume project. I did alter the style to suir my preference.
@@ -168,8 +165,8 @@ project, e.g. when I created a new page structure or completed the styling of a 
 * The photos, video and audio files used in this site were obtained from <https://github.com/aaronsnig501?tab=repositories>. Github user
   Aaron Sinnot is a tutor with Code Institute.
 
-### Acknowledgments
-
 ------------
+
+### Acknowledgments
 
 * I used the template for the README.md provided by various students of Code Institute on Slack.
