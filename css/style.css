@@ -120,7 +120,7 @@ footer {
 }
 
 .album-columns-position {
-    flex-flow: column;
+    flex-flow: column nowrap;
 }
 
 .btn-center {
@@ -313,6 +313,11 @@ audio {
 }
 
 /* -------- Footer / Social Links --------- */
+
+.footer-section {
+    flex-flow: row wrap;
+    align-items: center;
+}
 
 .copyright-column,
 .social-links-column {
