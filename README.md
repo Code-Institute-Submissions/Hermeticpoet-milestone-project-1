@@ -3,21 +3,20 @@
 ## The Brief:
 
 > ### Create a Website for a Band
->
 >Build a static (front-end only) website for a band. 
 >The band is a 1960’s rock band and have around 50 years experience of performing live at numerous events around the world. 
->
+
 >**You have been given the following requirements after interviews with the client’s representatives:**
 >Their primary target audiences are their fans and potential fans who wish to use the site to see and hear clips from their back catalog, 
 >and any new material as it becomes available. Also, the band would like to use the site to showcase their music and publicise 
 >their availability to perform at events such as weddings and Christmas parties.
->
+
 >**The band has provided a number of assets that they would like to showcase on their website:**
->
+
 >* Photos of the band members
 >* A video clip
 >* Audio clips
->
+
 >Also, they are in the process of creating a social media presence and would like to add links to their Facebook, Twitter and YouTube pages.
 
 Given this set of criteria, I decided to create a website that conformed to the aesthetic of a sixties pop band through its style of colors and fonts.
@@ -56,7 +55,7 @@ and embedded a contact form that potential clients can fill in in order to conta
 * They need to know the bands schedule and when they could be available.
 * They need to contact the band to arrange possible performances.
 
-Please [wireframes](https://github.com/Hermeticpoet/milestone-project-1/tree/master/Wireframes) directory in the project for wireframes of the Mobile First pages of the project.
+Please see the [wireframes](https://github.com/Hermeticpoet/milestone-project-1/tree/master/Wireframes) directory in the repository for wireframes of the Mobile First pages of the project.
 
 ------------
 
@@ -64,17 +63,17 @@ Please [wireframes](https://github.com/Hermeticpoet/milestone-project-1/tree/mas
 
 ### Established Features
 * Video - allows users to see a video of a performance of the band.
-* 
+ 
 * Image links - allows users to access the wikipedia pages of each band member and the group as a whole. These open to external pages.
-*
+
 * Contact / Booking form - allow users to contact the band for events bookings.
-* 
+
 * Audio media players - allow users to play a number of songs from past albums.
-* 
+ 
 * Tour calender and venues list - allow users to see when and where the band is playing.
-* 
+
 * Navbar buttons - allows users to navigate around the site with inutitive ease.
-* 
+ 
 * Footer - provides users with copyright information and to contact or follow the band through social media links. 
   These links also open to external sites.
 
@@ -99,6 +98,9 @@ and structure (Grid System) of the site, as well as aid in the creation of a res
 
 ### Google Fonts
 The project uses [Google Fonts](https://fonts.google.com/) to add specific fonts to aid in the personal design elements of the site.
+
+### W3C Validators
+I used the [W3C validation](https://validator.w3.org/) tools to check my code for this project.
 
 ------------
 
@@ -138,11 +140,18 @@ _Checking Availibility and Sampling some Music:_
 * Tour dates and venue scheduling allow clients to see availibility in what locations
 * Contact form embedded to allow contacting the band for possible events
 
-------------
+### Responsiveness of the Site
+The site was tested with the 5 major browsers; Mozilla, Chrome, IE, Opera & Safari. All initial testing suggested no issue with compatibility.
+Chrome's devtools was further used to test cross-platform compatibility and test the various breakpoints on my design. Bootstrap's grid system
+allowed for most of this to work without too many issues. There were a few issues in regards to what rules I should apply to achieve my desired
+outcomes. For instance, the use of .col classes with offsets to manoeuvre columns to the centre of the viewport or whether use flexbox. I have 
+for the most part attempted to use flexbox rules, however, in some instances it was necessary to use the offset col classes instead.
 
-## Responsiveness of the Site
+Getting the images and video elements to shrink or expand at the various breakpoints was difficult and took some time. I consulted Stack Overflow 
+and the W3C website for information about how to do so. After that, it was a matter of some trial and error to see what worked. Typically, these 
+elements just required a specified width and a height set to auto.
 
-
+-----------
 
 ## Deployment
 
