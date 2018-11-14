@@ -317,7 +317,7 @@ audio {
 .footer-section {
     flex-flow: row wrap;
     align-items: center;
-}
+} 
 
 .copyright-column,
 .social-links-column {
@@ -331,7 +331,7 @@ audio {
 
 .social-links li a i {
     padding: 5px 15px 25px 0;
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
     color: #f6bfca;
 }
@@ -346,6 +346,23 @@ audio {
 
 .copyright-logo {
     padding-top: 5px;
+}
+
+.band-logo-2 {
+    background-size: auto;
+    width: 90%;
+    height: auto;
+    max-height: 100px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.logo-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*-------------- Media Queries ---------------*/
