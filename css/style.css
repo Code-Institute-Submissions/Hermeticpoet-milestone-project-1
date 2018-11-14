@@ -14,7 +14,7 @@ h4,
 h5,
 h6 {
     font-family: "Lora", sans-serif;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .container-fluid {
@@ -45,6 +45,9 @@ footer {
     border-radius: 15px;
 }
 
+.photo-gallery {
+    background-color: black;
+}
 
 /*----------- Header Logo ------------*/
 
@@ -95,6 +98,10 @@ footer {
 .navbar-collapse ul > li {
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.nav-item {
+    font-size: 1.5rem;
 }
 
 /*----------- New Xmas Album -------------*/
@@ -227,6 +234,8 @@ video h2 {
 .container-venue-dates {
     display: flex;
     flex-flow: column;
+    color: #fafafa;
+    padding: 5px;
 }
 
 .venue-dates hr {
@@ -234,6 +243,14 @@ video h2 {
     border-radius: 50px;
     width: 100px;
     height: 5px;
+}
+
+.venue-bg-color {
+    display: flex;
+}
+
+.container-venue-dates {
+    flex: auto;
 }
 
 /*------------- Bookings Section ------------*/
@@ -247,6 +264,23 @@ video h2 {
 
 .booking-form {
     margin: 15px 0;
+}
+
+.photo-gallery {
+    background-color: #6e7598;
+    padding: 50px 10px;
+}
+
+.gallery-align {
+    display: flex;
+    justify-content: center;
+}
+
+.color-pic {
+    flex: initial;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    margin: 10px 5px;
 }
 
 /*-------------- Audio Section ---------------*/
@@ -344,6 +378,11 @@ audio {
     -o-transition: all 0.35s ease-in-out;
 }
 
+.social-links-column > ul {
+    margin-top: 16px;
+    margin-bottom: 5px;
+}
+
 .copyright-logo {
     padding-top: 5px;
 }
@@ -375,7 +414,7 @@ audio {
 
 @media only screen and (max-width: 768px) {    
     h1, h2, h3, h4, h5, h6 {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
 }
 
