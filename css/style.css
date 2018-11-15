@@ -104,6 +104,10 @@ footer {
     font-size: 1.5rem;
 }
 
+.hide-me[aria-expanded="true"] {
+    display: none;
+}
+
 /*----------- New Xmas Album -------------*/
 
 .xmas-cover-title {
@@ -346,6 +350,22 @@ audio {
     margin-bottom: 1rem;
 }
 
+/* ------------- About Page --------------- */
+
+.bio-elms {
+    align-items: center;
+}
+
+.bio-info {
+    font-size: 24px;
+}
+
+.bio-info h5 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+
 /* -------- Footer / Social Links --------- */
 
 .footer-section {
@@ -415,6 +435,18 @@ audio {
 @media only screen and (max-width: 768px) {    
     h1, h2, h3, h4, h5, h6 {
         font-size: 1.5rem;
+    }
+    
+    .bio-info {
+        font-size: 16px;
+    }
+
+    .bio-info h5 {
+        font-size: 24px;
+    }
+    
+    .profile-pic {
+        padding-left: 10px;
     }
 }
 

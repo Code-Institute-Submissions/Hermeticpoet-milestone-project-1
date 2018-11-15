@@ -179,3 +179,4 @@ project, e.g. when I created a new page structure or completed the styling of a 
 ### Acknowledgments
 
 * I used the template for the README.md provided by various students of Code Institute on Slack.
+* The hide functionality for the collapsed navbar button came from Stack Overflow user: [Crystal Rothwell](https://stackoverflow.com/questions/28057933/hiding-button-after-collapse-is-toggled-in-bootstrap)
