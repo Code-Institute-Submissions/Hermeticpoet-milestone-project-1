@@ -36,7 +36,7 @@ footer {
 }
 
 .venue-dates {
-    background-color: rgba(190, 202, 210);
+    background-color: rgb(190, 202, 210);
 }
 
 .venue-bg-color {
@@ -151,7 +151,7 @@ video {
   margin: .5rem;
 }
 
-video h2 {
+.video-title {
     font-size: 1.5rem;
 }
 
@@ -308,7 +308,7 @@ video h2 {
     justify-content: center;
 }
 
-.audio-controls h5 {
+.audio-controls-heading {
     text-align: center;
 } 
 
@@ -360,7 +360,7 @@ audio {
     font-size: 24px;
 }
 
-.bio-info h5 {
+.bio-info-heading {
     font-size: 32px;
     font-weight: 700;
 }
@@ -378,8 +378,8 @@ audio {
     text-align: center;
 }
 
-.copyright-column > h4,
-.copyright-column > p {
+.copyright-logo,
+.copyright-description {
     color: #f9f9f9;
 }
 
