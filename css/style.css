@@ -295,6 +295,8 @@ video {
     background-size: auto;
     width: 100%;
     height: auto;
+    border: 1px solid #a0a8f0;
+    margin-top: .2px;
 }
 
 .audio-heading {
