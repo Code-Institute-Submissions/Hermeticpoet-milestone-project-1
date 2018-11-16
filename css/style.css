@@ -412,10 +412,7 @@ audio {
     width: 90%;
     height: auto;
     max-height: 100px;
-    border: 1px solid transparent;
-    border-radius: 25px;
-    margin-bottom: 5px;
-    margin-top: 5px;
+    padding: 5px;
 }
 
 .logo-2 {
