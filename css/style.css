@@ -5,7 +5,6 @@ html, body {
 	padding: 0;
 	overflow-x: hidden;
 	font-family: "Oxygen", sans-serif;
-	/*-color: #6e7598;-*/
 	color: #007bff;
 }
 
@@ -26,7 +25,6 @@ h6 {
 /* ----------- Bg Colors -------------*/
 
 html, body {
-    /*-background-color: #f6bfca;-*/
     background-color: #32cd32;
 }
 
@@ -35,24 +33,20 @@ footer {
 }
 
 .bg-color-venue-timelime {
-    /*-background-color: #a0a8f0;-*/
     background-color: #ff8c00;
 }
 
 .venue-dates {
-    /*-background-color: rgb(190, 202, 210);-*/
     background-color: #ff8c00;
 }
 
 .venue-bg-color {
-    /*-background-color: #a0a8f0;-*/
     background-color: #ff8c00;
     border: solid 3px #007bff;
     border-radius: 15px;
 }
 
 .photo-gallery {
-    /*-background-color: black;-*/
     background-color: #007bff;
 }
 
@@ -107,8 +101,18 @@ footer {
     padding-right: 20px;
 }
 
-.nav-item {
-    font-size: 1.5rem;
+.navbar-dark .navbar-nav .nav-link {
+    color: #32cd32;
+    font-size: 24px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    background-color: #29ad29;
+    text-decoration: none;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .hide-me[aria-expanded="true"] {
@@ -363,6 +367,7 @@ audio {
 
 .bio-info {
     font-size: 24px;
+    padding-right: 20px;
 }
 
 .bio-info-heading {
