@@ -3,6 +3,7 @@
 html, body {
 	margin: 0;
 	padding: 0;
+	overflow-x: hidden;
 	font-family: "Oxygen", sans-serif;
 	color: #6e7598;
 }
@@ -92,7 +93,7 @@ footer {
 }
 
 .navbar-expand-md {
-    padding: 1.5rem;
+    padding: 24px 0px;
 }
 
 .navbar-collapse ul > li {
@@ -149,10 +150,6 @@ video {
   width: 100% !important;
   height: auto !important;
   margin: .5rem;
-}
-
-.video-title {
-    font-size: 1.5rem;
 }
 
 .video-elms {
@@ -339,17 +336,17 @@ video {
 
 .audio-row1,
 .audio-row2 {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 .best-of-audio,
 .greatest-hits-audio {
-    padding: 1rem;
+    padding: 16px;
 }
 
 audio {
-    margin-bottom: 1rem;
+    margin-bottom: 12px;
 }
 
 /* ------------- About Page --------------- */
@@ -425,15 +422,24 @@ audio {
 
 /*-------------- Media Queries ---------------*/
 
-@media only screen and (min-width: 768px) {
+@media all and (min-width: 768px) {
     .navbar-expand-md {
         padding: 0;
     }
 }
 
-@media only screen and (max-width: 768px) {    
-    h1, h2, h3, h4, h5, h6 {
-        font-size: 1.5rem;
+@media all and (max-width: 768px) {    
+    
+    h1 {
+        font-size: 24px;
+    }
+    
+    h2, h3 {
+        font-size: 20px;
+    }
+    
+    h4, h5, h6 {
+        font-size: 18px;
     }
     
     .bio-info {
@@ -449,7 +455,7 @@ audio {
     }
 }
 
-@media only screen and (min-width: 1024px) {
+@media all and (min-width: 1024px) {
     .container-venue-dates {
         align-items: center;
     }
