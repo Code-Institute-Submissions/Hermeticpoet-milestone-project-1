@@ -57,8 +57,20 @@ footer {
     background-repeat: no-repeat;
     background-size: auto;
     width: 100%;
+    max-width: 1000px;
     height: auto;
     max-height: 16rem;
+    border: 2px solid #007bff;
+    border-radius: 25px;
+}
+
+.logo-position {
+    justify-content: center;
+}
+
+.music-icon {
+    font-size: 64px;
+    padding-left: 60px;
 }
 
 /*------------ Home Page -------------*/
@@ -90,6 +102,10 @@ footer {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.navbar-toggler-icon {
+    color: #32cd32;
 }
 
 .navbar-expand-md {
