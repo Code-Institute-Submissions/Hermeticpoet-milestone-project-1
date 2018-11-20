@@ -64,7 +64,7 @@ footer {
 
 .music-icon {
     font-size: 64px;
-    padding-left: 60px;
+    text-align: center;
 }
 
 /*------------ Home Page -------------*/
@@ -99,7 +99,7 @@ footer {
 }
 
 .navbar-toggler-icon {
-    color: #00cdcd;
+    color: #fbb56f;
 }
 
 .navbar-expand-md {
@@ -112,7 +112,7 @@ footer {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #00cdcd;
+    color: #fbb56f;
     font-size: 24px;
 }
 
@@ -126,7 +126,9 @@ footer {
 }
 
 .hide-me[aria-expanded="true"] {
-    display: none;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 /*----------- New Xmas Album -------------*/
@@ -169,11 +171,11 @@ footer {
 video {
   width: 100% !important;
   height: auto !important;
-  margin: .5rem;
 }
 
 .video-elms {
     margin-bottom: 1rem;
+    justify-content: center;
 }
 
 .video-title {
@@ -441,14 +443,14 @@ audio {
 
 .copyright-logo,
 .copyright-description {
-    color: #00cdcd;
+    color: #fbb56f;
 }
 
 .social-links li a i {
     padding: 5px 15px 25px 0;
     font-size: 2.5rem;
     text-align: center;
-    color: #00cdcd;
+    color: #fbb56f;
 }
 
 .social-links li a i:hover {
