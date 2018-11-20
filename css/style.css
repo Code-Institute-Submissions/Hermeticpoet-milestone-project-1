@@ -5,6 +5,7 @@ html, body {
 	padding: 0;
 	overflow-x: hidden;
 	font-family: "Oxygen", sans-serif;
+	font-weight: 600;
 	color: #007bff;
 }
 
@@ -15,7 +16,19 @@ h4,
 h5,
 h6 {
     font-family: "Lora", sans-serif;
-    font-weight: 700;
+    font-weight: 800;
+}
+
+h1 {
+    font-size: 24px;
+}
+    
+h2, h3 {
+    font-size: 20px;
+}
+    
+h4, h5, h6 {
+    font-size: 18px;
 }
 
 .container-fluid {
@@ -90,6 +103,12 @@ footer {
     margin-bottom: 20px;
 }
 
+.xmas-cover-title,
+.video-title,
+.band-1972-heading {
+    padding: 10px 0;
+}
+
 /*-------------- Navbar --------------*/
 
 .navbar-toggler {
@@ -136,7 +155,6 @@ footer {
 .xmas-cover-title {
     display: flex;
     justify-content: center;
-    padding: 1rem 0;
 }
 
 .xmas-cover-container {
@@ -379,18 +397,22 @@ audio {
 }
 
 .bio-info {
-    font-size: 24px;
+    font-size: 16px;
     padding-right: 20px;
 }
 
 .bio-info-heading {
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 700;
 }
 
 .profile-pic-resize {
     border: 1px solid #007bff;
     border-radius: 5px;
+}
+
+.profile-pic {
+    padding-left: 10px;
 }
 
 .list-group-item-1,
@@ -490,32 +512,27 @@ audio {
     .navbar-expand-md {
         padding: 0;
     }
-}
-
-@media all and (max-width: 768px) {    
     
     h1 {
-        font-size: 24px;
+        font-size: 40px;
     }
     
-    h2, h3 {
-        font-size: 20px;
+    h2 {
+        font-size: 32px;
+    }
+    
+    h3 {
+        font-size: 24px;
     }
     
     h4, h5, h6 {
-        font-size: 18px;
+        font-size: large;
     }
     
-    .bio-info {
-        font-size: 16px;
-    }
-
-    .bio-info-heading {
-        font-size: 24px;
-    }
-    
-    .profile-pic {
-        padding-left: 10px;
+    .xmas-cover-title,
+    .video-title,
+    .band-1972-heading {
+        padding: 16px 0;
     }
 }
 
