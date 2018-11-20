@@ -127,8 +127,8 @@ footer {
 
 .hide-me[aria-expanded="true"] {
     position: relative;
-    top: 0;
-    left: 0;
+    text-align: center;
+    margin: 0 auto;
 }
 
 /*----------- New Xmas Album -------------*/
