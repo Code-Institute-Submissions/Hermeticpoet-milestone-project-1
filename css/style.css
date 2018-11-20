@@ -33,22 +33,16 @@ footer {
     background-color: #343a40;
 }
 
-.bg-color-venue-timelime {
-    background-color: #ff8c00;
-}
-
+.bg-color-venue-timelime,
+.photo-gallery,
+.venue-bg-color,
 .venue-dates {
-    background-color: #ff8c00;
+    background-color: #fbb56f;
 }
 
 .venue-bg-color {
-    background-color: #ff8c00;
     border: solid 3px #007bff;
     border-radius: 15px;
-}
-
-.photo-gallery {
-    background-color: #007bff;
 }
 
 /*----------- Header Logo ------------*/
@@ -294,8 +288,9 @@ video {
 }
 
 .photo-gallery {
-    background-color: #007bff;
+    background-color: #fbb56f;
     padding: 50px 10px;
+    border: 1px solid #007bff;
 }
 
 .gallery-align {
