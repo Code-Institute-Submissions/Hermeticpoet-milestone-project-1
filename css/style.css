@@ -6,7 +6,7 @@ html, body {
 	overflow-x: hidden;
 	font-family: "Oxygen", sans-serif;
 	font-weight: 600;
-	color: #007bff;
+	color: #343a40;
 }
 
 h1,
@@ -38,23 +38,19 @@ h4, h5, h6 {
 /* ----------- Bg Colors -------------*/
 
 html, body {
-    /*-background-color: #32cd32;-*/
-    background-color: #00cdcd;
+    background-color: #8dc994;
 }
 
 footer {
     background-color: #343a40;
 }
 
-.bg-color-venue-timelime,
-.photo-gallery,
-.venue-bg-color,
 .venue-dates {
-    background-color: #fbb56f;
+    background-color: #8dc994;
 }
 
 .venue-bg-color {
-    border: solid 3px #007bff;
+    border: solid 1px transparent;
     border-radius: 15px;
 }
 
@@ -67,7 +63,7 @@ footer {
     width: 100%;
     height: auto;
     max-height: 16rem;
-    border: 2px solid #007bff;
+    border: 1px solid transparent;
     border-radius: 25px;
 }
 
@@ -96,7 +92,7 @@ footer {
 
 .new-album hr,
 .video hr {
-    background-color: #007bff;
+    background-color: #343a40;
     border-radius: 25px;
     width: 200px;
     height: 3px;
@@ -137,7 +133,7 @@ footer {
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-    background-color: #00b3b3;
+    color: #d8a169;
     text-decoration: none;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -183,7 +179,22 @@ footer {
     margin-bottom: 15px;
 }
 
+.btn-primary {
+    color: #343a40;
+    background-color: #fbb56f;
+    border-color: transparent;
+    box-shadow: 9px 3px 29px 6px rgba(133,82,24,0.22);
+}
 
+.btn-primary:hover {
+    color: #343a40;
+    border-color: transparent;
+    background-color: #d8a169;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
 
 /* -------------- Video --------------------- */
 
@@ -207,7 +218,7 @@ video {
 .timeline-item {
     padding: 4em 2em 0em 2em;
     position: relative;
-    color: #007bff;
+    color: #343a40;
     border-left: 1px solid;
 }
 
@@ -269,25 +280,27 @@ video {
 /*---------- Event Location / Dates ----------*/
 
 .venue-dates {
-    background-color: #00cdcd;
     padding: 25px;
 }
 
 .container-venue-dates {
     display: flex;
     flex-flow: column;
-    color: #007bff;
+    color: #343a40;
     padding: 5px;
 }
 
 .venue-dates hr {
-    background-color: #007bff;
+    background-color: #343a40;
     border-radius: 50px;
     width: 100px;
     height: 5px;
 }
 
 .venue-bg-color {
+    background-color: #fbb56f;
+    box-shadow: 9px 3px 29px 6px rgba(133,82,24,0.22);
+    margin: 5px;
     display: flex;
 }
 
@@ -310,8 +323,7 @@ video {
 
 .photo-gallery {
     background-color: #fbb56f;
-    padding: 50px 10px;
-    border: 1px solid #007bff;
+    padding: 15px 5px;
 }
 
 .gallery-align {
@@ -324,6 +336,7 @@ video {
     border: 1px solid transparent;
     border-radius: 25px;
     margin: 5px;
+    box-shadow: 9px 3px 29px 6px rgba(133,82,24,0.22);
 }
 
 /*-------------- Audio Section ---------------*/
@@ -354,7 +367,7 @@ video {
 } 
 
 .audio-files hr {
-    background-color: #007bff;
+    background-color: #343a40;
     border-radius: 25px;
     width: 200px;
     height: 3px;
@@ -408,7 +421,7 @@ audio {
 }
 
 .profile-pic-resize {
-    border: 1px solid #007bff;
+    border: 1px solid transparent;
     border-radius: 5px;
 }
 
@@ -416,39 +429,38 @@ audio {
     padding-left: 10px;
 }
 
-.list-group-item-1,
-.list-group-item-3,
+.list-group {
+    padding-left: 5px;
+}
+
+.list-group-item-1 {
+    margin-top: 5px;
+}
+
 .list-group-item-5 {
-    background-color: #007bff;
+    margin-bottom: 5px;
+}
+
+.list-group-item-1,
+.list-group-item-2,
+.list-group-item-3,
+.list-group-item-4,
+.list-group-item-5 {
     color: #343a40;
 }
 
 .list-group-item-1:hover,
-.list-group-item-3:hover,
-.list-group-item-5:hover {
-    background-color: #0462c5;
-    color: #00cdcd;
-    text-decoration: none;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.list-group-item-2,
-.list-group-item-4 {
-    background-color: #00cdcd;
-    color: #343a40;
-}
-
 .list-group-item-2:hover,
-.list-group-item-4:hover {
-    background-color: #00b3b3;
+.list-group-item-3:hover,
+.list-group-item-4:hover,
+.list-group-item-5:hover {
+    background-color: #71a277;
+    color: #fbb56f;
     text-decoration: none;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
 }
 
 
@@ -477,7 +489,7 @@ audio {
 }
 
 .social-links li a i:hover {
-    color: #007bff;
+    color: #d8a169;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -540,5 +552,21 @@ audio {
 @media all and (min-width: 1024px) {
     .container-venue-dates {
         align-items: center;
+    }
+    
+    .audio-row1,
+    .audio-row2 {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    
+    .profile-pic {
+        padding-left: 15px;
+        margin-right: -20px;
+    }
+    
+    .bio-info {
+        padding-left: 0;
+        margin-left: 0;
     }
 }
