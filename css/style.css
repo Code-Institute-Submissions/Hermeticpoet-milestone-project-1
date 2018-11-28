@@ -271,10 +271,18 @@ video {
     margin-bottom: 25px;
 }
 
-.timeline-column {
-    margin-bottom: 50px;
-    padding-bottom: 20px;
+#mobile-logo {
+    width: 100%;
+    height: auto;
+    margin: 50px auto 5px;
+}
+
+#mobile-only-logo {
+    background-color: #fbb56f;
     border-radius: 25px;
+    padding: 1px 10px 35px;
+    margin-top: 25px;
+    box-shadow: 9px 3px 29px 6px rgba(133,82,24,0.22);
 }
 
 /*---------- Event Location / Dates ----------*/
@@ -546,6 +554,10 @@ audio {
     .video-title,
     .band-1972-heading {
         padding: 16px 0;
+    }
+    
+    #mobile-only-logo {
+        display: none;
     }
 }
 
