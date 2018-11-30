@@ -101,6 +101,10 @@ footer {
     margin-bottom: 20px;
 }
 
+.xmas-cover-title {
+    font-size: 22px;
+}
+
 .xmas-cover-title,
 .video-title,
 .band-1972-heading {
@@ -218,7 +222,7 @@ video {
 /*------------ Venue Timeline ---------*/
 
 .timeline-item {
-    padding: 4em 2em 0em 2em;
+    padding: 4em 2em 0 2em;
     position: relative;
     color: #343a40;
     border-left: 1px solid;
@@ -599,12 +603,12 @@ audio {
     .band-bw-photo {
         margin-top: .2px;
         border-radius: 45px;
-        box-shadow: 0px 25px 62px 11px rgba(109,142,108,0.49);
+        box-shadow: 0 25px 62px 11px rgba(109,142,108,0.49);
     }
     
     .logo {
         border-radius: 45px;
-        box-shadow: 0px 0px 46px 27px rgba(109,142,108,0.49);
+        box-shadow: 0 0px 46px 27px rgba(109,142,108,0.49);
     }
     
 /*--==== Flip Image Element ===--*/
@@ -647,6 +651,7 @@ audio {
         position: absolute;
         top: 50%;
         left: 50%;
+        -ms-transform: translate(-50%, -50%);
         -o-transform: translate(-50%, -50%);
         -webkit-transform: translate(-50%, -50%);
         -moz-transform: translate(-50%, -50%);
