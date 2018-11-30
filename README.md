@@ -141,8 +141,8 @@ _Checking Availibility and Sampling some Music:_
 * Contact form embedded to allow contacting the band for possible events
 
 ### Responsiveness of the Site
-The site was tested with the 5 major browsers; Mozilla, Chrome, IE, Opera & Safari. All initial testing suggested no issue with compatibility.
-Chrome's devtools was further used to test cross-platform compatibility and test the various breakpoints on my design. Bootstrap's grid system
+The site was tested with the 5 major browsers; Mozilla, Chrome, IE, Opera & Safari. All initial testing suggested no major issues with compatibility.
+Chrome's devtools was further used to test cross-platform compatibility and the various breakpoints on my design. Bootstrap's grid system
 allowed for most of this to work without too many issues. There were a few issues in regards to what rules I should apply to achieve my desired
 outcomes. For instance, the use of .col classes with offsets to manoeuvre columns to the centre of the viewport or whether use flexbox. I have 
 for the most part attempted to use flexbox rules, however, in some instances it was necessary to use the offset col classes instead.
@@ -150,6 +150,14 @@ for the most part attempted to use flexbox rules, however, in some instances it 
 Getting the images and video elements to shrink or expand at the various breakpoints was difficult and took some time. I consulted Stack Overflow 
 and the W3C website for information about how to do so. After that, it was a matter of some trial and error to see what worked. Typically, these 
 elements just required a specified width and a height set to auto.
+
+#### Caveat
+There was/is an issue with one element on 2 browsers. The song titles and their respective audio controls on the listen page do not align centrally on 
+two of the browsers - Mozilla & Safari. Flexbox was used to align the items (heading & its controls) with one another and the same grouping below it. 
+However, the first grouping that contains the 'I'm a Believer' song does not align correctly in these two browsers. This is made more puzzling by the 
+fact that the same layout and style rules were used in the row below and the headings & audio controls align perfectly there? I did not manage to 
+fully resolve this issue for those two browsers (as any change I made to correct the alignment for them would then affect the other browsers too).
+Therefore, this is a compatibility issue which needs to resolved at another date & time.
 
 -----------
 
@@ -179,4 +187,4 @@ project, e.g. when I created a new page structure or completed the styling of a 
 ### Acknowledgments
 
 * I used the template for the README.md provided by various students of Code Institute on Slack.
-* The hide functionality for the collapsed navbar button came from Stack Overflow user: [Crystal Rothwell](https://stackoverflow.com/questions/28057933/hiding-button-after-collapse-is-toggled-in-bootstrap)
+* The fixed appearance of the collapsed navbar button was suggested to me by numerous CI students on Slack.
