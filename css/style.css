@@ -623,6 +623,7 @@ audio {
         display: block;
         width: 100%;
         height: auto;
+        border-radius: 25px;
     }
 
     .overlay {
@@ -634,19 +635,20 @@ audio {
         overflow: hidden;
         width: 0;
         height: 100%;
-        transition: .5s ease;
+        border-radius: 25px;
+        transition: .6s ease;
     }
 
     .album-cover-1:hover .overlay,
     .album-cover-2:hover .overlay {
         width: 100%;
         left: 0;
-        opacity: .8;
+        opacity: .85;
     }
 
     .title-tracks {
         color: #fbb56f;
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 900;
         position: absolute;
         top: 50%;
