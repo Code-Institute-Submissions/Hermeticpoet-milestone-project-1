@@ -134,7 +134,7 @@ _Accessing music, videos, merchandise and latest information:_
 * A **Store** link is provided in the header navbar to access merchandise
 * Video and Audio files are embedded to allow for listening directly on the site
 
-### Poential Clients User Story:
+### Potential Clients User Story:
 _Checking Availibility and Sampling some Music:_
 * Video and Audio files are embedded to allow for sampling of band's music directly on the site
 * Tour dates and venue scheduling allow clients to see availibility in what locations

@@ -7,6 +7,7 @@ html, body {
 	font-family: "Oxygen", sans-serif;
 	font-weight: 600;
 	color: #343a40;
+	font-size: 100%;
 }
 
 h1,
@@ -19,19 +20,24 @@ h6 {
     font-weight: 800;
 }
 
+/*-- rem is calculated by assumption of 1rem => to 16px --*/
 h1 {
-    margin-top: 24px;
-    font-size: 28px;
+    margin-top: 1.5rem;
+    font-size: 1.25rem;
     text-shadow: 1px 1px #fbb56f;
 }
     
-h2, h3 {
-    font-size: 22px;
+h2 {
+    font-size: 1.2rem;
     text-shadow: 1px 1px #fbb56f;
 }
+
+ h3 {
+     font-size: 1.15rem;
+ }
     
 h4, h5, h6 {
-    font-size: 18px;
+    font-size: 1rem;
 }
 
 .container-fluid {
@@ -54,7 +60,7 @@ footer {
 
 .venue-bg-color {
     border: solid 1px transparent;
-    border-radius: 15px;
+    border-radius: .95rem;
 }
 
 /*----------- Header Logo ------------*/
@@ -73,7 +79,7 @@ footer {
 }
 
 .music-icon {
-    font-size: 64px;
+    font-size: 4rem;
     text-align: center;
     text-shadow: 2px 2px #fbb56f;
 }
@@ -95,20 +101,20 @@ footer {
 .new-album hr,
 .video hr {
     background-color: #343a40;
-    border-radius: 25px;
-    width: 200px;
-    height: 3px;
-    margin-bottom: 20px;
+    border-radius: 1.56rem;
+    width: 12.5rem;
+    height: .1875rem;
+    margin-bottom: 1.25rem;
 }
 
 .xmas-cover-title {
-    font-size: 22px;
+    font-size: 1.375;
 }
 
 .xmas-cover-title,
 .video-title,
 .band-1972-heading {
-    padding: 10px 0;
+    padding: .625rem 0;
 }
 
 /*-------------- Navbar --------------*/
@@ -124,18 +130,18 @@ footer {
 }
 
 .navbar-expand-md {
-    padding: 5px;
+    padding: .32;
 }
 
 .navbar-collapse ul > li {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
 }
 
 .navbar-dark .navbar-nav .nav-link {
     color: #fbb56f;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -169,7 +175,7 @@ footer {
 .xmas-cover {
    display: block;
    width: 100%;
-   max-width: 800px; 
+   max-width: 50rem; 
    height: auto; 
    margin: auto;
 }
@@ -181,8 +187,8 @@ footer {
 .btn-center {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
-    margin-bottom: 15px;
+    margin-top: .625rem;
+    margin-bottom: .95rem;
 }
 
 .btn-primary {
@@ -247,74 +253,74 @@ video {
 }
 
 .timeline-item::after {
-    width: 12px;
-    height: 12px;
+    width: 1em;
+    height: 1em;
     display: block;
     top: 2.4em;
     position: absolute;
-    left: -6px;
-    border-radius: 12px;
+    left: -.375em;
+    border-radius: .75em;
     content: "";
     background-color: #fafafa;
 }
 
 .country-dates {
-    padding: 5px 50px;
+    padding: .3125rem 3.125rem;
 }
 
 .timeline-heading-container {
     display: flex;
     justify-content: center;
-    padding: 5px 0;
-    margin-bottom: -15px;
-    margin-top: 25px;
+    padding: .3125rem 0;
+    margin-bottom: -.9375rem;
+    margin-top: 1.5625rem;
 }
 
 .venue-dates-heading {
     display: flex;
     justify-content: center;
-    padding: 5px 0;
-    margin-bottom: 25px;
+    padding: .3125rem 0;
+    margin-bottom: 1.5625rem;
 }
 
 #mobile-logo {
     width: 100%;
     height: auto;
-    margin: 50px auto 5px;
+    margin: 3.125rem auto .3125rem;
 }
 
 #mobile-only-logo {
     background-color: #fbb56f;
-    border-radius: 25px;
-    padding: 1px 10px 35px;
-    margin-top: 25px;
+    border-radius: 1.5625rem;
+    padding: .0625rem .625rem 2.1875rem;
+    margin-top: 1.5625rem;
     box-shadow: 9px 3px 29px 6px rgba(133,82,24,0.22);
 }
 
 /*---------- Event Location / Dates ----------*/
 
 .venue-dates {
-    padding: 25px;
+    padding: 1.5625rem;
 }
 
 .container-venue-dates {
     display: flex;
     flex-flow: column;
     color: #343a40;
-    padding: 5px;
+    padding: .3125rem;
 }
 
 .venue-dates hr {
     background-color: #343a40;
-    border-radius: 50px;
-    width: 100px;
-    height: 5px;
+    border-radius: 3.125rem;
+    width: 6.25rem;
+    height: .3125rem;
 }
 
 .venue-bg-color {
     background-color: #fbb56f;
     box-shadow: 9px 3px 29px 6px rgba(133,82,24,0.22);
-    margin: 5px;
+    margin: .3125rem;
     display: flex;
 }
 
@@ -332,12 +338,12 @@ video {
 }
 
 .booking-form {
-    margin: 15px 0;
+    margin: .9375rem 0;
 }
 
 .photo-gallery {
     background-color: #fbb56f;
-    padding: 15px 5px;
+    padding: .9375rem .3125rem;
 }
 
 .gallery-align {
@@ -347,9 +353,9 @@ video {
 
 .color-pic {
     flex: initial;
-    border: 1px solid transparent;
-    border-radius: 25px;
-    margin: 5px;
+    /*border: 1px solid transparent;*/
+    border-radius: 1.5625rem;
+    margin: .3125rem;
     box-shadow: 9px 3px 29px 6px rgba(133,82,24,0.22);
 }
 
@@ -365,11 +371,17 @@ video {
 
 .audio-heading {
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 1.25rem;
+}
+
+.audio-players {
+    justify-content: center;
 }
 
 .album-cover-2,
 .album-cover-1 {
+    width: 100%;
+    height: auto;
     display: flex;
     justify-content: center;
 }
@@ -380,14 +392,14 @@ video {
 
 .audio-files hr {
     background-color: #343a40;
-    border-radius: 25px;
-    width: 200px;
-    height: 3px;
+    border-radius: 1.5625rem;
+    width: 12.5rem;
+    height: .1875rem;
 }
 
 .hr-spacing {
-    margin-top: 10px;
-    margin-bottom: 24px;
+    margin-top: .625rem;
+    margin-bottom: 1.5rem;
 }
 
 .best-of-audio {
@@ -408,18 +420,18 @@ video {
 
 .audio-row1,
 .audio-row2 {
-    margin-top: 12px;
-    margin-bottom: 12px;
+    margin-top: .75rem;
+    margin-bottom: .75rem;
 }
 
 .best-of-audio,
 .greatest-hits-audio {
-    padding: 16px;
+    padding: 1rem;
 }
 
 audio {
-    border-radius: 25px; /*-- This is needed for similar styling on Mozilla --*/
-    margin: 12px auto;
+    border-radius: 1.5625rem; /*-- This is needed for similar styling on Mozilla --*/
+    margin: .75rem auto;
 }
 
 
@@ -430,35 +442,35 @@ audio {
 }
 
 .bio-info {
-    font-size: 16px;
-    padding-right: 20px;
+    font-size: 1rem;
+    padding-right: 1.25rem;
 }
 
 .bio-info-heading {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 
 .profile-pic-resize {
     border: 1px solid transparent;
-    border-radius: 5px;
+    border-radius: .3125rem;
     box-shadow: 9px 6px 72px -5px rgba(0,0,0,0.60);
 }
 
 .profile-pic {
-    padding-left: 10px;
+    padding-left: .625rem;
 }
 
 .list-group {
-    padding-left: 5px;
+    padding-left: .3125rem;
 }
 
 .list-group-item-1 {
-    margin-top: 5px;
+    margin-top: .3125rem;
 }
 
 .list-group-item-5 {
-    margin-bottom: 5px;
+    margin-bottom: .3125rem;
 }
 
 .list-group-item-1,
@@ -502,7 +514,7 @@ audio {
 }
 
 .social-links li a i {
-    padding: 5px 15px 25px 0;
+    padding: .3125rem .9375rem 1.5625rem 0;
     font-size: 2.5rem;
     text-align: center;
     color: #fbb56f;
@@ -517,20 +529,20 @@ audio {
 }
 
 .social-links-column > ul {
-    margin-top: 16px;
-    margin-bottom: 5px;
+    margin-top: 1rem;
+    margin-bottom: .3125rem;
 }
 
 .copyright-logo {
-    padding-top: 5px;
+    padding-top: .3125rem;
 }
 
 .band-logo-2 {
     background-size: auto;
     width: 90%;
     height: auto;
-    max-height: 100px;
-    padding: 5px;
+    max-height: 6.25rem;
+    padding: .3125rem;
 }
 
 .logo-2 {
@@ -553,29 +565,33 @@ audio {
     }
     
     h1 {
-        font-size: 40px;
+        font-size: 2.5rem;
     }
     
     h2 {
-        font-size: 32px;
+        font-size: 2rem;
     }
     
     h3 {
-        font-size: 24px;
+        font-size: 1.5rem;
     }
     
     h4, h5, h6 {
-        font-size: large;
+        font-size: 1.25rem;
     }
     
     .xmas-cover-title,
     .video-title,
     .band-1972-heading {
-        padding: 16px 0;
+        padding: 1rem 0;
     }
     
     #mobile-only-logo {
         display: none;
+    }
+    
+    .flip-image {
+        border-radius: 1.5625rem;
     }
 }
 
@@ -586,13 +602,13 @@ audio {
     
     .audio-row1,
     .audio-row2 {
-        margin-top: 25px;
-        margin-bottom: 25px;
+        margin-top: 2rem;
+        margin-bottom: 2.5rem;
     }
     
     .profile-pic {
-        padding-left: 15px;
-        margin-right: -20px;
+        padding-left: 1rem;
+        margin-right: -1.25rem;
     }
     
     .bio-info {
@@ -601,14 +617,17 @@ audio {
     }
     
     .band-bw-photo {
-        margin-top: .2px;
-        border-radius: 45px;
+        border-radius: 2.8125rem;
         box-shadow: 0 25px 62px 11px rgba(109,142,108,0.49);
     }
     
     .logo {
-        border-radius: 45px;
-        box-shadow: 0 0px 46px 27px rgba(109,142,108,0.49);
+        border-radius: 2.8125rem;
+        box-shadow: 0 0 46px 27px rgba(109,142,108,0.49);
+    }
+    
+    .audio-elms-position {
+        margin-bottom: 1.5rem;
     }
     
 /*--==== Flip Image Element ===--*/
@@ -623,7 +642,8 @@ audio {
         display: block;
         width: 100%;
         height: auto;
-        border-radius: 25px;
+        min-width: 15.5rem;
+        border-radius: 1.5625rem;
     }
 
     .overlay {
@@ -635,7 +655,7 @@ audio {
         overflow: hidden;
         width: 0;
         height: 100%;
-        border-radius: 25px;
+        border-radius: 1.5625rem;
         transition: .6s ease;
     }
 
@@ -648,7 +668,7 @@ audio {
 
     .title-tracks {
         color: #fbb56f;
-        font-size: 22px;
+        font-size: 1.375rem;
         font-weight: 900;
         position: absolute;
         top: 50%;
