@@ -229,6 +229,10 @@ video {
 
 /*------------ Venue Timeline ---------*/
 
+.timeline-heading {
+    font-size: 2rem;
+}
+
 .timeline-item {
     padding: 4em 2em 0 2em;
     position: relative;
@@ -260,7 +264,7 @@ video {
     display: block;
     top: 2.4em;
     position: absolute;
-    left: -.375em;
+    left: -.5em;
     border-radius: .75em;
     content: "";
     background-color: #fafafa;
@@ -278,11 +282,15 @@ video {
     margin-top: 1.5625rem;
 }
 
-.venue-dates-heading {
+.venue-dates-heading-container {
     display: flex;
     justify-content: center;
     padding: .3125rem 0;
     margin-bottom: 1.5625rem;
+}
+
+.venue-dates-heading {
+    font-size: 2rem;
 }
 
 #mobile-logo {
@@ -305,9 +313,13 @@ video {
     padding: 1.5625rem;
 }
 
+.venue-dates-positioning {
+    margin: 0;
+}
+
 .container-venue-dates {
     display: flex;
-    flex-flow: column;
+    flex-flow: column nowrap;
     color: #343a40;
     padding: .3125rem;
 }
@@ -322,12 +334,27 @@ video {
 .venue-bg-color {
     background-color: #fbb56f;
     box-shadow: 9px 3px 29px 6px rgba(133,82,24,0.22);
-    margin: .3125rem;
+    margin: .125rem;
     display: flex;
 }
 
 .container-venue-dates {
-    flex: auto;
+    flex: 1 1 auto;
+    align-items: center;
+}
+
+.container-venue-dates > h4 {
+    text-align: center;
+}
+
+.notification-text {
+    margin: 3rem 1rem 1rem;
+    padding: 1rem;
+}
+
+.notice-info {
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
 /*------------- Bookings Section ------------*/
@@ -346,6 +373,7 @@ video {
 .photo-gallery {
     background-color: #fbb56f;
     padding: .9375rem .3125rem;
+    margin-top: 1rem;
 }
 
 .gallery-align {
@@ -594,6 +622,21 @@ audio {
     
     .flip-image {
         border-radius: 1.5625rem;
+    }
+}
+
+@media all and (min-device-width : 768px) and (max-device-width : 1023px) {
+    .venue-dates-heading,
+    .timeline-heading {
+        font-size: 1.5rem;
+    }
+    
+    .country-dates {
+        padding: 0;
+    }
+    
+    .notice-info {
+        font-size: 1.125rem;
     }
 }
 
