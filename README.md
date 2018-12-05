@@ -102,6 +102,8 @@ The project uses [Google Fonts](https://fonts.google.com/) to add specific fonts
 ### W3C Validators
 I used the [W3C validation](https://validator.w3.org/) tools to check my code for this project.
 
+### CSS Matic
+All shadowing effects where created using [CSS Matic](https://www.cssmatic.com/box-shadow) shadowing tools.
 ------------
 
 ## Testing
@@ -151,13 +153,18 @@ Getting the images and video elements to shrink or expand at the various breakpo
 and the W3C website for information about how to do so. After that, it was a matter of some trial and error to see what worked. Typically, these 
 elements just required a specified width and a height set to auto.
 
-#### Caveat
-There was/is an issue with one element on 2 browsers. The song titles and their respective audio controls on the listen page do not align centrally on 
+I used rems and ems for sizing the most important typographical elements, including margin and padding. However, where I took code from other sites, 
+such as, using [CSS Matic](https://www.cssmatic.com/box-shadow) to create box shadowing, I retained the site specific use of pixels. 
+
+#### Devolpment Issues
+There was an issue with one element on 2 browsers. The song titles and their respective audio controls on the listen page did not align centrally on 
 two of the browsers - Mozilla & Safari. Flexbox was used to align the items (heading & its controls) with one another and the same grouping below it. 
-However, the first grouping that contains the 'I'm a Believer' song does not align correctly in these two browsers. This is made more puzzling by the 
-fact that the same layout and style rules were used in the row below and the headings & audio controls align perfectly there? I did not manage to 
+However, the first grouping that contains the 'Daydream Believer' song does not align correctly in these two browsers. This was made more puzzling by the 
+fact that the same layout and style rules were used in the row below and the headings & audio controls aligned perfectly there? I did not manage to 
 fully resolve this issue for those two browsers (as any change I made to correct the alignment for them would then affect the other browsers too).
-Therefore, this is a compatibility issue which needs to resolved at another date & time.
+Therefore, I rewrote the code in a less semantic manner and used only columns with offsets to align the elements. At that point, I discovered that I
+had actually added an extra row container that was causing the issue. This then allowed me to go back to my original code and use flexbox to align all
+the elements correctly. Thus, resolving that issue. 
 
 -----------
 
