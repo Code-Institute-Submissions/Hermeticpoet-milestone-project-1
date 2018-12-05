@@ -347,14 +347,15 @@ video {
     text-align: center;
 }
 
-.notification-text {
+.notice-info {
     margin: 3rem 1rem 1rem;
     padding: 1rem;
 }
 
-.notice-info {
+.notice-text {
     font-size: 1.5rem;
     font-weight: 700;
+    text-shadow: 1px 1px #fbb56f;
 }
 
 /*------------- Bookings Section ------------*/
@@ -635,12 +636,18 @@ audio {
         padding: 0;
     }
     
-    .notice-info {
-        font-size: 1.125rem;
+    .notice-text {
+        font-size: 1.2rem;
+        text-shadow: .8px .8px #fbb56f;
     }
 }
 
 @media all and (min-width: 1024px) {
+    .notice-text {
+        font-size: 1.75rem;
+        text-shadow: 1px 1px #fbb56f;
+    }
+    
     .container-venue-dates {
         align-items: center;
     }
