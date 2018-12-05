@@ -61,8 +61,12 @@ footer {
 }
 
 .venue-bg-color {
+    background-color: #fbb56f;
+    box-shadow: 9px 3px 29px 6px rgba(133,82,24,0.22);
+    margin: .125rem;
+    display: flex;
     border: solid 1px transparent;
-    border-radius: .95rem;
+    /*border-radius: .95rem;*/
 }
 
 /*----------- Header Logo ------------*/
@@ -319,29 +323,31 @@ video {
 
 .container-venue-dates {
     display: flex;
+    flex: 1 1 auto;
     flex-flow: column nowrap;
     color: #343a40;
     padding: .3125rem;
+    align-items: center;
 }
 
-.venue-dates hr {
+.top-left-corner { 
+    border-radius: .95rem 0 0 0; } /* top left */
+
+.top-right-corner { 
+    border-radius: 0 .95rem 0 0; } /* top right */
+
+.bottom-left-corner { 
+    border-radius: 0 0 0 .95rem; } /* bottom left */
+
+.bottom-right-corner { 
+    border-radius: 0 0 .95rem 0; } /* bottom right */
+
+/*.venue-dates hr {
     background-color: #343a40;
     border-radius: 3.125rem;
     width: 6.25rem;
     height: .3125rem;
-}
-
-.venue-bg-color {
-    background-color: #fbb56f;
-    box-shadow: 9px 3px 29px 6px rgba(133,82,24,0.22);
-    margin: .125rem;
-    display: flex;
-}
-
-.container-venue-dates {
-    flex: 1 1 auto;
-    align-items: center;
-}
+}*/
 
 .container-venue-dates > h4 {
     text-align: center;
