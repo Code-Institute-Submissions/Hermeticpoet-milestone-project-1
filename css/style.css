@@ -20,7 +20,9 @@ h6 {
     font-weight: 800;
 }
 
-/*-- rem is calculated by assumption of 1rem => to 16px --*/
+/*-- rem is calculated by assumption of 1rem => to 16px 
+     therefore all resulting rem are based on desired px
+     value divided by the inherited px value --*/
 h1 {
     margin-top: 1.5rem;
     font-size: 1.25rem;
@@ -661,8 +663,8 @@ audio {
 
     .album-cover-1:hover .overlay,
     .album-cover-2:hover .overlay {
-        width: 100%;
-        left: 0;
+        width: 94%;
+        left: .65rem;
         opacity: .85;
     }
 
