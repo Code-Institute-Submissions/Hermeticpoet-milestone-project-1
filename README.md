@@ -77,6 +77,9 @@ Please see the [wireframes](https://github.com/Hermeticpoet/milestone-project-1/
 * Footer - provides users with copyright information and to contact or follow the band through social media links. 
   These links also open to external sites.
 
+#### Hidden Features
+* There is an easter egg of sorts to be found on the listen page. Users who hover their mouse over the album covers will get a list of title tracks.
+
 ### Features Still to Implement
 * Back-End functionality - The contact form and Buy Now buttons will need some additional coding to become fully functional.
   This will also be the case for purchasing tickets for shows through the site. Buttons have been added for design / layout
@@ -104,6 +107,7 @@ I used the [W3C validation](https://validator.w3.org/) tools to check my code fo
 
 ### CSS Matic
 All shadowing effects where created using [CSS Matic](https://www.cssmatic.com/box-shadow) shadowing tools.
+
 ------------
 
 ## Testing
@@ -154,7 +158,7 @@ and the W3C website for information about how to do so. After that, it was a mat
 elements just required a specified width and a height set to auto.
 
 I used rems and ems for sizing the most important typographical elements, including margin and padding. However, where I took code from other sites, 
-such as, using [CSS Matic](https://www.cssmatic.com/box-shadow) to create box shadowing, I retained the site specific use of pixels. 
+such as, using the CSS Matic site to create box shadowing, I retained the site specific use of pixels. 
 
 #### Devolpment Issues
 There was an issue with one element on 2 browsers. The song titles and their respective audio controls on the listen page did not align centrally on 
@@ -178,7 +182,7 @@ project, e.g. when I created a new page structure or completed the styling of a 
 ### Credits
 
 #### Content
-* The code for the Social Media links and their transitions was taken from the UCD-Resume project. I did alter the style to suir my preference.
+* The code for the Social Media links and their transitions was taken from the UCD-Resume project. I did alter the style to suit my preference.
 * The Google Fonts copyright Glyphicon was obtained at <https://glyphicons.bootstrapcheatsheets.com/#>.
 * The video and image auto-sizing was obtained at <https://www.w3schools.com/css/css3_box-sizing.asp>.
 * The code for the contact form was obtained from the Resume Project but slightly altered.
