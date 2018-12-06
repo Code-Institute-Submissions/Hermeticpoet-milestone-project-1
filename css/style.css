@@ -330,24 +330,39 @@ video {
     align-items: center;
 }
 
-.top-left-corner { 
-    border-radius: .95rem 0 0 0; } /* top left */
+/*-- Original code using classes to round corner elements,
+     ID's would be better as each element is unique --*/
+
+/*.top-left-corner { 
+    border-radius: .95rem 0 0 0; } 
 
 .top-right-corner { 
-    border-radius: 0 .95rem 0 0; } /* top right */
+    border-radius: 0 .95rem 0 0; } 
 
 .bottom-left-corner { 
-    border-radius: 0 0 0 .95rem; } /* bottom left */
+    border-radius: 0 0 0 .95rem; } 
 
 .bottom-right-corner { 
-    border-radius: 0 0 .95rem 0; } /* bottom right */
+    border-radius: 0 0 .95rem 0; } */
+    
+/*-- End of Original Code --*/
 
-/*.venue-dates hr {
-    background-color: #343a40;
-    border-radius: 3.125rem;
-    width: 6.25rem;
-    height: .3125rem;
-}*/
+/*-- More complex code with higher specificity --*/
+
+.venue-dates > div:nth-child(2) > div:first-child { 
+    border-radius: .95rem 0 0 0; 
+} /* top left */
+.venue-dates > div:nth-child(2) > div:last-child { 
+    border-radius: 0 .95rem 0 0; 
+} /* top right */
+.venue-dates > div:nth-child(9) > div:first-child { 
+    border-radius: 0 0 0 .95rem; 
+} /* bottom left */
+.venue-dates > div:nth-child(9) > div:last-child { 
+    border-radius: 0 0 .95rem 0;
+} /* bottom right */
+
+/*-- End of higher specificity form of code --*/
 
 .container-venue-dates > h4 {
     text-align: center;
