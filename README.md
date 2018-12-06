@@ -5,14 +5,11 @@
 > ### Create a Website for a Band
 >Build a static (front-end only) website for a band. 
 >The band is a 1960’s rock band and have around 50 years experience of performing live at numerous events around the world. 
-
 >**You have been given the following requirements after interviews with the client’s representatives:**
 >Their primary target audiences are their fans and potential fans who wish to use the site to see and hear clips from their back catalog, 
 >and any new material as it becomes available. Also, the band would like to use the site to showcase their music and publicise 
 >their availability to perform at events such as weddings and Christmas parties.
-
 >**The band has provided a number of assets that they would like to showcase on their website:**
-
 >* Photos of the band members
 >* A video clip
 >* Audio clips
@@ -160,14 +157,14 @@ elements just required a specified width and a height set to auto.
 I used rems and ems for sizing the most important typographical elements, including margin and padding. However, where I took code from other sites, 
 such as, using the CSS Matic site to create box shadowing, I retained the site specific use of pixels. 
 
-#### Devolpment Issues
-There was an issue with one element on 2 browsers. The song titles and their respective audio controls on the listen page did not align centrally on 
-two of the browsers - Mozilla & Safari. Flexbox was used to align the items (heading & its controls) with one another and the same grouping below it. 
+#### Development Issues
+There was a particularly difficult issue with one element on 2 browsers. The song titles and their respective audio controls on the listen page did not 
+align centrally on two of the browsers - Mozilla & Safari. Flexbox was used to align the items (heading & its controls) with one another and the same grouping below it. 
 However, the first grouping that contains the 'Daydream Believer' song does not align correctly in these two browsers. This was made more puzzling by the 
 fact that the same layout and style rules were used in the row below and the headings & audio controls aligned perfectly there? I did not manage to 
-fully resolve this issue for those two browsers (as any change I made to correct the alignment for them would then affect the other browsers too).
+fully resolve this issue for those two browsers (as any change I made to correct the alignment for them would then affect the other browsers too) at that time.
 Therefore, I rewrote the code in a less semantic manner and used only columns with offsets to align the elements. At that point, I discovered that I
-had actually added an extra row container that was causing the issue. This then allowed me to go back to my original code and use flexbox to align all
+had actually added an extra row container that was causing the original issue. This then allowed me to go back to my original code and use flexbox to align all
 the elements correctly. Thus, resolving that issue. 
 
 -----------
@@ -175,7 +172,7 @@ the elements correctly. Thus, resolving that issue.
 ## Deployment
 
 I created a repository on Github, linking my project on Cloud9 to it. I committed and pushed content to this respository at various stages of the 
-project, e.g. when I created a new page structure or completed the styling of a group of similar elements. 
+project, e.g. when I created a new page structure or completed the styling of a group of similar elements. I then deployed the website through Github pages.
 
 ------------
 
